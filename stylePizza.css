@@ -1,0 +1,15 @@
+body{
+    background-image: url(Bois.png);
+}
+
+.page{
+    margin-top: 100px;    
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: white;
+    height: 300px;
+}
+
+#test{
+    color: red;
+}

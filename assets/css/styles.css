@@ -1,47 +1,22 @@
-body{
-    background-image: url(../images/Bois.png);
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+body {
+    background-image: url("../images/bois.png");
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-.page{
-    margin-top: 100px;    
-    margin-left: 100px;
-    margin-right: 100px;
+.page {
+    margin: 100px;
     background-color: brown;
     height: 300px;
     border-radius: 16px;
     box-shadow: 0 8px 50px rgba(100, 0, 0, 0.5);
-    
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
-
-#titre a{
-    text-decoration: none;
-    color: rgb(200, 0, 0);
-    font-family: "Pacifico", cursive;
-    font-size: 700;
-    font-style: normal;
-}
-#titre a:hover{
-    color: red;
-}
-
-#menu a:hover {
-  color: #fff;
-}
-
-#menu a {
-  color: black();
-  text-decoration: none;
-  margin-left: 24px;
-}
-
-
-#test{
-    color: red;
-}
-
-#entete {
+/* Header section */
+#header {
     border-top-left-radius: 16px;
     border-top-right-radius: 16px;
     display: flex;
@@ -49,4 +24,36 @@ body{
     align-items: center;
     padding: 16px 40px;
     background-color: white;
+}
+
+/* Title link */
+#title a {
+    text-decoration: none;
+    color: rgb(200, 0, 0);
+    font-family: "Pacifico", cursive;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+}
+
+#title a:hover {
+    color: red;
+}
+
+/* Navigation menu */
+#nav-menu a {
+    color: black;
+    text-decoration: none;
+    margin-left: 24px;
+    transition: color 0.3s ease;
+}
+
+#nav-menu a:hover {
+    color: #fff;
+}
+
+/* Test paragraph */
+#test {
+    color: red;
 }

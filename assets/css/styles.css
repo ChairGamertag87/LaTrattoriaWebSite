@@ -97,7 +97,7 @@ body {
 .container {
     max-width: 1400px;
     margin: 0 auto;
-    padding: 0 50px;
+    padding: 30px 50px;
     width: 100%;
     display: flex;
     align-items: center;
@@ -161,7 +161,7 @@ body {
 }
 
 .cta-button:hover::before {
-    width: 300px;
+    width: 450px;
     height: 300px;
 }
 

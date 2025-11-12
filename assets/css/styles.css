@@ -250,9 +250,6 @@ body {
         font-size: 3.5rem;
     }
 
-    .features {
-        padding: 40px 30px;
-    }
 }
 
 @media (max-width: 768px) {
@@ -297,11 +294,7 @@ body {
         font-size: 1.4rem;
         padding: 15px 40px;
     }
-
-    .features {
-        padding: 40px 25px;
-        gap: 20px;
-    }
+    
 }
 
 @media (max-width: 480px) {

@@ -64,21 +64,17 @@ body {
     
 }
 
-.pizza{
-    display: flex;
+.mP {
+    background-color: #C82909;
+    height: 100px;
+    width: 75%;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
 }
 
-#liste, #ingre{
-    align-self: flex-start;
-    list-style-position: inside;
-    gap: 100px;
-}
-
-#liste li{
-    margin-bottom: 50px;
-    font-size: 20px;
-}
-
-#liste {
-    text-align: left;
+.mP #entete {
+    font-size: 120%;
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }

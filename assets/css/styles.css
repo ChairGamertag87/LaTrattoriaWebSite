@@ -487,7 +487,6 @@ body {
     color: #F5D7B5;
     text-align: center;
     padding: 30px;
-    margin: 0 100px; /* Aligné avec .page, mais peut nécessiter ajustement */
     border-bottom-left-radius: 16px;
     border-bottom-right-radius: 16px;
     box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
@@ -511,10 +510,6 @@ body {
         padding: 40px 30px;
     }
 
-    #footer {
-        margin: 0 50px;
-    }
-
     .contact-container {
         flex-direction: column;
     }
@@ -525,9 +520,6 @@ body {
         font-size: 2rem;
     }
 
-    #footer {
-        margin: 0 20px;
-    }
 }
 
 @media (max-width: 480px) {
@@ -535,7 +527,4 @@ body {
         padding: 30px 20px;
     }
 
-    #footer {
-        margin: 0 10px;
-    }
 }

@@ -7,7 +7,7 @@
 }
 
 body {
-    background-image: url("../images/wood.png");
+    background-image: url("../images/wood.jpg");
     background-size: cover;
     background-attachment: fixed;
     margin: 0;
@@ -18,7 +18,7 @@ body {
 .page {
     margin: 100px;
     background-color: brown;
-    background-image: url("../images/dark_wood.png");
+    background-image: url("../images/dark_wood.jpg");
     background-size: cover;
     min-height: 600px;
     border-radius: 16px;
